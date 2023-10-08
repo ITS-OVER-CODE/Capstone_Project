@@ -9,7 +9,7 @@ from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 
 # Constants
-Datadirectory = "/mnt/c/Users/bader/Desktop/C_project/Datasets"
+Datadirectory = "DataSets"
 Classes = ["Closed", "Opened"]
 img_size = 224
 batch_size = 32
