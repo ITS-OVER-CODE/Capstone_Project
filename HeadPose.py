@@ -17,7 +17,7 @@ class HeadPoseDetector:
         self.mp_drawing = mp.solutions.drawing_utils
         self.drawing_spec = self.mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
         self.last_yawn_time = 0  # To implement a cooldown period after each yawn
-        self.my_sound = pygame.mixer.Sound(r"C:\Users\ziyad\OneDrive\Desktop\Capstone\code\military-alarm-129017.mp3")
+        self.my_sound = pygame.mixer.Sound(r"alarm.mp3")
         self.tilt_iterations = 1
         self.down_iterations = 1
 

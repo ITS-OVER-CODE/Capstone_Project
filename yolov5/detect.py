@@ -42,7 +42,7 @@ import torch
 
 pygame.mixer.init()
 sound_file_path = "alarm.mp3"
-sound = pygame.mixer.Sound(r"C:\Users\ziyad\OneDrive\Desktop\Capstone\code\military-alarm-129017.mp3")
+sound = pygame.mixer.Sound(sound_file_path)
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory

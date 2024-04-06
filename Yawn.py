@@ -18,7 +18,7 @@ class YawnDetector:
         self.mp_drawing = mp.solutions.drawing_utils
         self.mouth_landmarks = [82, 87, 312, 317, 78, 308]
         self.last_yawn_time = 0
-        self.my_sound = pygame.mixer.Sound(r"C:\Users\ziyad\OneDrive\Desktop\Capstone\code\military-alarm-129017.mp3")
+        self.my_sound = pygame.mixer.Sound(r"alarm.mp3")
 
     def draw_landmarks(self, frame, landmarks):
         for landmark in landmarks:
