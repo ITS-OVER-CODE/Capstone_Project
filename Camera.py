@@ -2,7 +2,7 @@ import cv2
 from threading import Thread, Lock
 
 class CameraManager:
-    def __init__(self, source=0):
+    def __init__(self, source=1):
         self.cap = cv2.VideoCapture(source)
         self.lock = Lock()
         self.frame = None
