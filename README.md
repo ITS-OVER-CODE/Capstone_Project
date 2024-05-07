@@ -2,4 +2,4 @@
 # Capstone_Project
 ## README.md
 
-`$ pip install opencv-python, tensorflow, numpy, pygame, matplotlib, scikit-learn`
+`$ pip install opencv-python, pygame, mediapipe, customtkinter`
